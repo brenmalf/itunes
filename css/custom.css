@@ -1,0 +1,303 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+   
+   .header {
+    min-height: 100vh;
+    height: 100%;
+    background: #04080F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#45F8FF, #A400E0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#45F8FF, #A400E0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#45F8FF, #A400E0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#45F8FF, #A400E0); /* Standard syntax (must be last) */    }
+    .background-blue {
+        background: #4EE1FC;
+    }
+    .purple {
+        color: #A400E0;
+    }
+    .btn {
+        border: 3px solid white; 
+        border-radius: 30px;
+        padding: 14px 60px;
+        font-family: 'Quicksand';
+        font-weight: 700;
+        text-transform: uppercase;        
+    }
+    .btn:hover {
+        color: #A400E0;
+    }        
+    .btn-purple {
+        border: 3px solid #A400E0;
+        color: #A400E0;
+        background: none;
+    }
+    .btn-purple:hover {
+        border: 3px solid #A400E0;
+        color: #FFF;
+        background: #A400E0;
+    }
+    .background-purple {
+        background: #A400E0;
+        padding: 0px;
+    }
+    .bandinfo h4 {
+        color: #FFF;
+    }
+    .buy {
+        background:#4EE1FC;
+        padding: 50px 0px; 
+    }
+    .tree {
+        background: #A400E0;
+        padding: 50px 0px;
+    }
+    #band-2 {background: #FFF}
+    #band-2 h4{ color: #4EE1FC}
+    #band-2 .bandbtn {
+        color: #4EE1FC;
+        border: 3px solid #4EE1FC;
+    }
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+   
+    html, body {
+        min-height: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    p {
+        font-family: 'Avenir Next';
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Quicksand';
+        font-weight: 700;
+    }
+    h3 {
+        padding-bottom: 30px;
+    }
+    .bands p {
+        line-height: 2em;
+    }
+    .bands h4 {
+        margin-bottom: 30px;
+    }
+    .toptree {
+        margin-top: 100px;
+    }
+    .headphones {
+        z-index: 999;
+        position: relative;
+        top: 100px;
+        width:800px;
+        -webkit-filter: drop-shadow(0px 5px 4px #222);
+        filter: drop-shadow(0px 5px 4px rgba(0,0,0,0.2));        
+    }
+    .circle {
+        border-radius: 50%;
+    }
+    .bands {
+        padding: 0;
+    }
+    .band {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .bandimg {
+        margin-bottom: 40px;
+    }
+    .about {
+        padding-top: 50px;        
+        padding-bottom: 50px;
+    }
+    .about img {
+        margin-bottom: 40px;
+    }
+    .buy h3 {
+        padding: 0;
+    }
+    .bandbtn:hover {
+        color: #4EE1FC;     
+    }
+    .bandinfo {
+        margin-bottom: 40px;
+    }
+    .full-width {
+        width: 100%;
+    }
+    .albuminfo h1, .albuminfo h3 {
+        font-family: 'Avenir Next', sans-serif;
+        font-weight: 500;
+        line-height: 1.3em;
+        color: #A400E0;
+    }
+    .nummer {
+        background: #4EE1FC;
+        position: absolute;
+        left: 30px;
+        top: 60px;
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+        color: white;
+        -webkit-filter: drop-shadow(0px 5px 4px #222);
+        filter: drop-shadow(5px 5px 7px rgba(0,0,0,0.2));        
+    }
+    .nummer h1 {
+        font-size: 2em;        
+    }
+    .buy i {
+        padding-left: 37%;
+        padding-bottom: 40px;
+    }
+    .kopen {
+        padding: 0px;
+        margin: 0px;
+    }
+    .albumart img {
+        width: 70%;
+        margin-top: 100px;
+    }
+    .albuminfo {
+        padding: 50px 50px;
+    }
+    .albuminfo h1 {
+        font-size: 1.3em;
+    }
+    .albuminfo h3 {
+        font-size: 1em;
+    }
+    .songs-negative table td{
+        border-top: .7px solid rgb(135, 0, 197);
+    }
+    .buy-btn{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .albuminfo-negative h1, .albuminfo-negative, .white {
+        color: #FFF;
+    }
+    .albuminfo h3, .blue {
+        color: #4EE1FC;
+    }
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    .about {
+        padding-top: 150px;        
+        padding-bottom: 150px;
+    }
+    .bands {
+        padding: 150px 0px;
+    }
+    .band {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #band-2 {background: #4EE1FC}
+    #band-2 h4{ color: #FFF}
+    #band-2 .bandbtn {
+        color: #FFF;
+        border: 3px solid #FFF;
+    }
+    #band-2 .bandbtn:hover {
+        color: #4EE1FC;
+    }
+    .songs {
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 20px; /* Firefox */
+        column-gap: 20px;
+        /* margin: 100px 0px; */
+    }
+    .album {
+        padding: 150px 0px;
+    }
+    .table {
+        border-bottom:0px !important;
+        font-size: 0.8em;
+        line-height: 1em;
+    }
+    .table th, .table td {
+        border: 1px !important;
+    }
+    .fixed-table-container {
+        border: 0px !important;
+    }
+    .buy {
+        background:#4EE1FC;
+        padding: 100px 0px; 
+    }
+    .buy i {
+        position: relative;
+        padding-right: 50px;
+        float: left;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .albuminfo {
+        padding: 0px;
+        padding-left: 50px;
+    }
+    .nummer {
+        background: #4EE1FC;
+        position: absolute;
+        left: -40px;
+        top: -50px;
+        width: 100px;
+        height: 100px;
+        padding: 25px;
+        color: white;
+        -webkit-filter: drop-shadow(0px 5px 4px #222);
+        filter: drop-shadow(5px 5px 7px rgba(0,0,0,0.2));        
+    }
+    .albumart img {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .buy-btn {
+        position: absolute;
+        top: -0px;
+        right: 0;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+    }
+   .about img {
+    padding: 50px 0px;
+    margin: 0;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+
